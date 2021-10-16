@@ -11,7 +11,7 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  overflow: hidden;
+  background-image: url(src/image/green_tea.jpg);
 }
 
 .sidebar {
@@ -187,7 +187,7 @@ body {
   left: 75px;
   margin-right: 5px;
   transition: all 0.5s ease;
-  background-image: url(src/image/green_tea.jpg);
+  
 }
 
 .frame_content .head_content{
@@ -223,3 +223,19 @@ body {
   left: 240px;
 }
 
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: 0.8}
+  to {opacity: 1}
+}

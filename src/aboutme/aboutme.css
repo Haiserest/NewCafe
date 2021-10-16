@@ -11,7 +11,7 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  overflow: hidden;
+  background-image: url(../image/mucha.jpg);
 }
 
 .sidebar {
@@ -187,7 +187,7 @@ body {
   left: 75px;
   margin-right: 5px;
   transition: all 0.5s ease;
-  background-image: url(../image/mucha.jpg);
+  
 }
 
 .frame_content .head_content{
